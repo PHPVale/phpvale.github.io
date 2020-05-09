@@ -1,0 +1,28 @@
+.grid-photos {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+
+  .card-photo {
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    height: 100px;
+    overflow: hidden;
+  }
+
+  .photo {
+    border-radius: 10px;
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .grid-photos {
+    grid-template-columns: repeat(4, 1fr);
+
+    .card-photo {
+      height: 160px;
+    }
+  }
+}

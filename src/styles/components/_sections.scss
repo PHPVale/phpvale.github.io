@@ -1,0 +1,13 @@
+@import './../../styles/settings/_colors';
+@import './../../styles/tools/_mixins';
+
+.sections {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 40px 0;
+  position: relative;
+  width: 100%;
+}

@@ -1,0 +1,97 @@
+[
+  {
+    "id": "1",
+    "name": "Meetup de PHP em Cruzeiro/SP #01 - Fatec",
+    "date": "Sábado, 5 de maio de 2018",
+    "description": "No Sábado, 05 de Maio, acontece o primeiro meetup de PHP em Cruzeiro, no prédio da Fatec! As vagas são limitadas, portanto somente confirme se você realmente for ao evento.",
+    "slug": "evento/2018/05/05",
+    "realized": true,
+    "location": {
+      "name": "Fatec Prof. Waldomiro May",
+      "complement": "Sala 08 no 2° andar"
+    },
+    "schedule": [
+      {
+        "hour": "08:00",
+        "title": "Abertura"
+      },
+      {
+        "hour": "08:40",
+        "title": "PHP em 2018",
+        "author": "Lucas de Oliveira",
+        "author_url": "https://deoliveiralucas.net/",
+        "slides": "",
+        "code": ""
+      },
+      {
+        "hour": "09:20",
+        "title": "PSRs - Padrões são importantes",
+        "author": "Lucas Porto",
+        "author_url": "",
+        "slides": "",
+        "code": ""
+      },
+      {
+        "hour": "10:00",
+        "title": "Coffee e networking",
+        "author": "",
+        "author_url": "",
+        "slides": "",
+        "code": ""
+      },
+      {
+        "hour": "10:30",
+        "title": "Entendendo Composer",
+        "author": "Victor Bittencourt",
+        "author_url": "",
+        "slides": "",
+        "code": ""
+      },
+      {
+        "hour": "11:10",
+        "title": "Organizando templates com Twig",
+        "author": "Denilson Raimundo",
+        "author_url": "https://denilsonraimundo.github.io",
+        "slides": "https://www.slideshare.net/",
+        "code": "https://github.com"
+      },
+      {
+        "hour": "11:50",
+        "title": "Encerramento e sorteios",
+        "author": "",
+        "author_url": "",
+        "slides": "",
+        "code": ""
+      }
+    ],
+    "images_path": "2018-05-05"
+  },
+  {
+    "id": "2",
+    "name": "Meetup de PHP em São José dos Campos/SP #02 - Etec",
+    "date": "Sábado, 18 de agosto de 2018",
+    "description": "No Sábado, 18 de Agosto, acontece o segundo meetup de PHP em São José dos Campos, no prédio da Etec! As vagas são limitadas, portanto somente confirme se você realmente for ao evento.",
+    "slug": "evento/2018/08/18",
+    "realized": true,
+    "location": {
+      "name": "Etec Profª Ilza Nascimento Pintus",
+      "complement": "Auditório"
+    },
+    "schedule": [
+      {
+        "id": 1,
+        "hour": "08:00",
+        "title": "Abertura evento 2"
+      },
+      {
+        "id": 2,
+        "hour": "08:30",
+        "title": "Palestra 1",
+        "author": "Ronaldinho Gaúcho",
+        "author_url": "https://twitter.com/10ronaldinho",
+        "slides": "https://www.slideshare.net/",
+        "code": "https://github.com"
+      }
+    ]
+  }
+]

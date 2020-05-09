@@ -1,0 +1,21 @@
+@import './../../styles/settings/colors';
+@import './../../styles/tools/mixins';
+
+.action-button {
+  border: 2px solid $white;
+  color: $white;
+  display: block;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 10px 0;
+  text-align: center;
+  text-transform: uppercase;
+  
+  @include transition(all, .5s);
+
+  &:hover {
+    background-color: $white;
+    color: $dark-blue;
+    opacity: 1;
+  }
+}

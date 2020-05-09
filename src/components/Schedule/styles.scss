@@ -1,0 +1,17 @@
+.list-schedule {
+  margin-left: 20px;
+
+  .item {
+    list-style: disc;
+    margin: 10px 0;
+
+    > p {
+      margin: 5px 0; 
+
+      > a {
+        align-items: center;
+        display: inline-flex;
+      }
+    }
+  }
+}

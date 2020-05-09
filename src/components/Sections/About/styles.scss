@@ -1,0 +1,25 @@
+.-about {
+  background: url('./../../../assets/images/background.jpeg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
+  .background {
+    background-color: rgba(0, 85, 153, .75);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+  }
+
+  h2 {
+    z-index: 2;
+  }
+
+  .description {
+    margin: 50px auto 0;
+    max-width: 640px;
+    text-align: center;
+    z-index: 2;
+  }
+}
