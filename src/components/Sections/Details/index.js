@@ -4,6 +4,7 @@ import Header from './../../Header'
 import Schedule from './../../Schedule'
 import Map from './../../Map'
 import Photos from './../../Photos'
+import Footer from './../../Footer'
 
 export default ({ event: { name, date, description, location, schedule, images_path } }) => {
 
@@ -11,7 +12,7 @@ export default ({ event: { name, date, description, location, schedule, images_p
     <>
       <Header />
 
-      <section className="sections -details">
+      <section className="sections -intern">
 
         <div className="container">
           <time className="date" dateTime={ date }>{ date }</time>  
@@ -36,6 +37,8 @@ export default ({ event: { name, date, description, location, schedule, images_p
         </div>
 
       </section>
+
+      <Footer />
     </>
   )
 

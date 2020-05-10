@@ -1,0 +1,13 @@
+#error-block {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.newsletter-form {
+  width: 100%;
+}
+
+@media screen and (min-width: 767px) {
+  .newsletter-form {
+    max-width: 640px;
+  }
+}

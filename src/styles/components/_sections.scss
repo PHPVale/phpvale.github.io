@@ -7,7 +7,13 @@
   flex-direction: column;
   justify-content: center;
   min-height: 100vh;
-  padding: 40px 0;
+  padding-bottom: 40px;
+  padding-top: 40px;
   position: relative;
   width: 100%;
+
+  &:not(.-intern) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }

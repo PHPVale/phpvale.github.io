@@ -2,7 +2,7 @@
   "name": "phpvale.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://phpvale.github.io/",
+  "homepage": "https://phpvale.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -10,6 +10,7 @@
     "leaflet": "^1.6.0",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^16.13.1",
     "react-google-maps": "^9.4.5",
     "react-icons": "^3.10.0",
@@ -21,7 +22,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && cp build/index.html build/404.html",
     "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {

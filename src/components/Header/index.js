@@ -9,13 +9,11 @@ import './styles.scss'
 export default () => {
 
   return (
-    <>
-      <header className="header">
-        <Link to="/">
-          <img src={Logo} alt="PHPVale" />
-        </Link>
-      </header>
-    </>
+    <header className="header">
+      <Link to="/">
+        <img src={Logo} alt="PHPVale" />
+      </Link>
+    </header>
   )
 
 }

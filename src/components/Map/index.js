@@ -8,6 +8,7 @@ export default ({ location }) => {
     <iframe
       height="450"
       width="100%"
+      title="iframe-map"
       src={ googleMapsURL }>
     </iframe>
   )

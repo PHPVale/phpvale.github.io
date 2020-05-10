@@ -1,6 +1,8 @@
 import React from 'react'
 
-import { FaFacebook, FaTwitter, FaMeetup, FaGithub, FaTelegram, FaEnvelope } from 'react-icons/fa'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+
+import Social from './../../../components/Social'
 
 import Logo from './../../../assets/images/logo-phpvale.png'
 
@@ -11,31 +13,14 @@ export default () => {
     <section className="sections">
       <img src={Logo} alt="PHPVale" />
 
-      <div className="_margin-bt-50 _center">
+      <div className="_margin-t-50 _center">
         <h2 className="-uppercase">Bem-vindo ao PHPVale</h2><br />
-        <h3 className="-uppercase">Grupo de desenvolvedores PHP do Vale do Paraíba</h3>
+        <h3 className="-font-normal">Grupo de desenvolvedores PHP do Vale do Paraíba</h3>
       </div>
 
-      <div className="social">
-        <a href="https://www.phpvale.com.br" className="fa-2x" target="_blank" rel="noopener noreferrer">
-          <FaFacebook />
-        </a>
-        <a href="https://www.phpvale.com.br" className="fa-2x" target="_blank" rel="noopener noreferrer">
-          <FaTwitter />
-        </a>
-        <a href="https://www.phpvale.com.br" className="fa-2x" target="_blank" rel="noopener noreferrer">
-          <FaMeetup />
-        </a>
-        <a href="https://www.phpvale.com.br" className="fa-2x" target="_blank" rel="noopener noreferrer">
-          <FaGithub />
-        </a>
-        <a href="https://www.phpvale.com.br" className="fa-2x" target="_blank" rel="noopener noreferrer">
-          <FaTelegram />
-        </a>
-        <a href="https://www.phpvale.com.br" className="fa-2x" target="_blank" rel="noopener noreferrer">
-          <FaEnvelope />  
-        </a>
-      </div>
+      <AnchorLink href="#newsletter" className="action-button -active _margin-bt-50">Assine nossa newsletter</AnchorLink>
+
+      <Social />
     </section>
   )
 }
