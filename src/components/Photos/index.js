@@ -9,10 +9,9 @@ export default ({ images_path }) => {
 
   const [ isLightboxOpened, setIsLightboxOpened ] = useState(false)
   const [ selectedImage, setSelectedImage ] = useState(0)
-
-  let images = null
-  if (images_path === '2018-05-05') 
-    images = importAllImages(require.context(`./../../assets/images/2018-05-05`, false, /\.(png|jpe?g)$/))
+  
+  let images = importAllImages(require.context(`./../../assets/images/`, true, /\.(png|jpe?g)$/))
+  images = images.filter(image => image.includes(images_path))
 
   /**
    * Open/close lightbox with carousel images
