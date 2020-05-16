@@ -20,24 +20,20 @@
         "title": "PHP em 2018",
         "author": "Lucas de Oliveira",
         "author_url": "https://deoliveiralucas.net/",
-        "slides": "",
+        "slides": "https://pt.slideshare.net/deoliveiralucasnet/php2018-phpvale",
         "code": ""
       },
       {
         "hour": "09:20",
         "title": "PSRs - Padrões são importantes",
         "author": "Lucas Porto",
-        "author_url": "",
+        "author_url": "https://twitter.com/lp_deus",
         "slides": "",
         "code": ""
       },
       {
         "hour": "10:00",
-        "title": "Coffee e networking",
-        "author": "",
-        "author_url": "",
-        "slides": "",
-        "code": ""
+        "title": "Coffee e networking"
       },
       {
         "hour": "10:30",
@@ -52,16 +48,12 @@
         "title": "Organizando templates com Twig",
         "author": "Denilson Raimundo",
         "author_url": "https://denilsonraimundo.github.io",
-        "slides": "https://www.slideshare.net/",
-        "code": "https://github.com"
+        "slides": "",
+        "code": ""
       },
       {
         "hour": "11:50",
-        "title": "Encerramento e sorteios",
-        "author": "",
-        "author_url": "",
-        "slides": "",
-        "code": ""
+        "title": "Encerramento e sorteios"
       }
     ],
     "images_path": "2018-05-05"
@@ -80,18 +72,188 @@
     "schedule": [
       {
         "id": 1,
-        "hour": "08:00",
-        "title": "Abertura evento 2"
+        "hour": "08:20",
+        "title": "Abertura e Apresentação"
       },
       {
         "id": 2,
-        "hour": "08:30",
-        "title": "Palestra 1",
-        "author": "Ronaldinho Gaúcho",
-        "author_url": "https://twitter.com/10ronaldinho",
-        "slides": "https://www.slideshare.net/",
-        "code": "https://github.com"
+        "hour": "08:40",
+        "title": "Iniciando com o PHP com o pé direito",
+        "author": "Diego Brocanelli",
+        "author_url": "https://www.diegobrocanelli.com.br/",
+        "slides": "",
+        "code": ""
+      },
+      {
+        "id": 3,
+        "hour": "09:20",
+        "title": "Testes: é realmente importante?",
+        "author": "Lucas Porto",
+        "author_url": "https://twitter.com/lp_deus",
+        "slides": "",
+        "code": ""
+      },
+      {
+        "id": 4,
+        "hour": "10:00",
+        "title": "Coffee e Networking"
+      },
+      {
+        "id": 5,
+        "hour": "10:30",
+        "title": "Symfony Flex",
+        "author": "Gabriel Machado",
+        "author_url": "https://about.me/gmsantos",
+        "slides": "https://www.slideshare.net/gmsantos/symfony-flex-2-meetup-phpvale",
+        "code": ""
+      },
+      {
+        "id": 6,
+        "hour": "11:10",
+        "title": "Como Eu Conseguia Viver Antes De Conhecer O tmux",
+        "author": "Davi Marcondes Moreira",
+        "author_url": "http://www.devdrops.me/about",
+        "slides": "https://github.com/devdrops/how-was-life-without-tmux/tree/master/slides",
+        "code": "https://github.com/devdrops/how-was-life-without-tmux"
+      },
+      {
+        "id": 7,
+        "hour": "11:50",
+        "title": "Encerramento e sorteios"
       }
-    ]
+    ],
+    "images_path": null
+  },
+  {
+    "id": "3",
+    "name": "Meetup de PHP em Lorena/SP #03 - UNISAL",
+    "date": "Sábado, 16 de março de 2019",
+    "description": "No Sábado, 16 de Março, acontece o terceiro meetup de PHP em Lorena, no prédio da UNISAL! As vagas são limitadas, portanto somente confirme se você realmente for ao evento.",
+    "slug": "evento/2019/03/16",
+    "realized": true,
+    "location": {
+      "name": "UNISAL Lorena / São Joaquim - R. Dom Bôsco, 284",
+      "complement": "Sala C1"
+    },
+    "schedule": [
+      {
+        "id": 1,
+        "hour": "08:20",
+        "title": "Abertura e Apresentação"
+      },
+      {
+        "id": 2,
+        "hour": "08:40",
+        "title": "Dicas para iniciar um projeto em PHP",
+        "author": "Lucas de Oliveira",
+        "author_url": "https://whoami.deoliveiralucas.net/",
+        "slides": "https://speakerdeck.com/deoliveiralucas/dicas-para-iniciar-um-projeto-em-php",
+        "code": ""
+      },
+      {
+        "id": 3,
+        "hour": "09:20",
+        "title": "Um pouco sobre Arquitetura e Integração de Sistemas",
+        "author": "Jether Rodrigues",
+        "author_url": "https://twitter.com/blackwolf2009",
+        "slides": "https://pt.slideshare.net/jetherrodrigues/arquitetura-e-integrao-de-sistemas",
+        "code": ""
+      },
+      {
+        "id": 4,
+        "hour": "10:00",
+        "title": "Coffee e Networking"
+      },
+      {
+        "id": 5,
+        "hour": "10:30",
+        "title": "Criando API com Slim Framework",
+        "author": "Denilson Raimundo",
+        "author_url": "https://denilsonraimundo.github.io",
+        "slides": "https://pt.slideshare.net/DenilsonRaimundo/criando-ap-is-com-slim-framework-2",
+        "code": "https://github.com/denilsonraimundo/talk-slim-framework"
+      },
+      {
+        "id": 6,
+        "hour": "11:10",
+        "title": "Testes de Software",
+        "author": "Davi Marcondes Moreira",
+        "author_url": "http://www.devdrops.me/about",
+        "slides": "http://slides.com/devdrops/testes-de-software#/",
+        "code": ""
+      },
+      {
+        "id": 7,
+        "hour": "11:50",
+        "title": "Encerramento e sorteios"
+      }
+    ],
+    "images_path": null
+  },
+  {
+    "id": "4",
+    "name": "Meetup de PHP em Guaratinguetá/SP #04 - Fatec",
+    "date": "Sábado, 5 de outubro de 2019",
+    "description": "No Sábado, 05 de Outubro, acontece o quarto meetup de PHP em Guaratinguetá, no prédio da Fatec! As vagas são limitadas, portanto somente confirme se você realmente for ao evento.",
+    "slug": "evento/2019/10/05",
+    "realized": true,
+    "location": {
+      "name": "Fatec Guaratinguetá",
+      "complement": "Auditório"
+    },
+    "schedule": [
+      {
+        "id": 1,
+        "hour": "08:20",
+        "title": "Abertura e Apresentação"
+      },
+      {
+        "id": 2,
+        "hour": "08:40",
+        "title": "Código Limpo em PHP",
+        "author": "Filipi Arruda",
+        "author_url": "https://twitter.com/FilipiArruda",
+        "slides": "https://pt.slideshare.net/FilipiAtaideArruda/cdigo-limpo-php",
+        "code": ""
+      },
+      {
+        "id": 3,
+        "hour": "09:20",
+        "title": "Gerenciamento de Equipe em TI e Agilidade",
+        "author": "Rudney da Costa",
+        "author_url": "https://linkedin.com/in/rudney-azevedo-mba-02318777/",
+        "slides": "https://1drv.ms/p/s!AkEuoB7nVILUj7hLVxZswRtBZKP5ew",
+        "code": ""
+      },
+      {
+        "id": 4,
+        "hour": "10:00",
+        "title": "Coffee e Networking"
+      },
+      {
+        "id": 5,
+        "hour": "10:30",
+        "title": "Logs, pra que te quero!",
+        "author": "Gabriel Machado",
+        "author_url": "https://twitter.com/gmsantos__",
+        "slides": "https://www.slideshare.net/gmsantos/logs-pra-que-te-quero-meetup-php-vale",
+        "code": ""
+      },
+      {
+        "id": 6,
+        "hour": "11:10",
+        "title": "Evolua Seu Código usando Tipos de Dados do PHP7",
+        "author": "Davi Marcondes Moreira",
+        "author_url": "http://www.devdrops.me/about",
+        "slides": "https://slides.com/devdrops/tipos-de-dados-php-vale#/",
+        "code": "https://github.com/devdrops/php7-tipos-de-dados"
+      },
+      {
+        "id": 7,
+        "hour": "11:50",
+        "title": "Encerramento e sorteios"
+      }
+    ],
+    "images_path": null
   }
 ]
