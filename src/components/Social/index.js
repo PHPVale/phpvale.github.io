@@ -20,7 +20,7 @@ export default () => {
       <a href="https://t.me/joinchat/CfuMTUbUybj7tLBH2FQ-MQ" className="icon fa-2x" target="_blank" rel="noopener noreferrer">
         <FaTelegram />
       </a>
-      <a href="mailto:contato.phpvale@gmail.com" className="icon fa-2x" target="_blank" rel="noopener noreferrer">
+      <a href="mailto:phpvale.contato@gmail.com" className="icon fa-2x" target="_blank" rel="noopener noreferrer">
         <FaEnvelope />  
       </a>
     </div>

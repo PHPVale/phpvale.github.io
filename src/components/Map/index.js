@@ -2,7 +2,7 @@ import React from 'react'
 
 export default ({ location }) => {
 
-  const googleMapsURL = `https://www.google.com/maps/embed/v1/place?key=AIzaSyASp0Fiyc7Q0j5Yn60c58KHPQh-5ApeNow&q=${ location }`
+  const googleMapsURL = `https://www.google.com/maps/embed/v1/place?key=AIzaSyA7S8pFYD8OWZjq4aFd8CN2Y1fHBTecreg&q=${ location }`
 
   return (
     <iframe
